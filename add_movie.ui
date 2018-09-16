@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>300</height>
+    <height>319</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <rect>
      <x>30</x>
      <y>20</y>
-     <width>351</width>
+     <width>361</width>
      <height>51</height>
     </rect>
    </property>
@@ -31,11 +31,8 @@
      </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="movieName">
       <property name="enabled">
-       <bool>true</bool>
-      </property>
-      <property name="frame">
        <bool>true</bool>
       </property>
      </widget>
@@ -46,8 +43,8 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>80</y>
-     <width>121</width>
+     <y>90</y>
+     <width>131</width>
      <height>41</height>
     </rect>
    </property>
@@ -60,29 +57,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QSpinBox" name="spinBox"/>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="horizontalLayoutWidget_3">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>130</y>
-     <width>351</width>
-     <height>121</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_4">
-    <item>
-     <widget class="QLabel" name="label_3">
-      <property name="text">
-       <string>Komentarz</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPlainTextEdit" name="plainTxt"/>
+     <widget class="QSpinBox" name="rating"/>
     </item>
    </layout>
   </widget>
@@ -110,6 +85,42 @@
    </property>
    <property name="text">
     <string>Wyjdz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>290</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Komentarz</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>150</y>
+     <width>291</width>
+     <height>71</height>
+    </rect>
    </property>
   </widget>
  </widget>

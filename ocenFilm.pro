@@ -5,7 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui widgets
-
+QT       += sql
 TARGET = ocenFilm
 TEMPLATE = app
 

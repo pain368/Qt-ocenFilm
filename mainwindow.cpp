@@ -2,6 +2,9 @@
 #include "ui_mainwindow.h"
 #include "add_movie.h"
 #include "del_movie.h"
+
+#include <QMessageBox>
+#include <QButtonGroup>
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -31,5 +34,6 @@ void MainWindow::on_del_movie_clicked()
 
 void MainWindow::on_exit_clicked()
 {
-
+    //QMessageBox::about(this,"Test","Czy jesteś pewny?");
+    //QMessageBox::question(this,"test","Jestes pewny?",QMessageBox::Yes|QMessageBox::No);
 }
